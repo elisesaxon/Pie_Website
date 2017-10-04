@@ -18,29 +18,42 @@ h1 {
 }
 
 h2 {
-  color: rgb(164,164,0);
-  background-color: rgb(240,240,240);
-  text-align: left;
-  text-decoration: underline;
-  font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
-  font-size: 18pt;
+    color: rgb(164,164,0);
+    background-color: rgb(240,240,240);
+    text-align: left;
+    text-decoration: underline;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 18pt;
 }
 
 p {
-  color: #404040;
-  font-family: "Georgia", "Garamond", serif;
-  font-size: 11pt;
+    color: #404040;
+    font-family: "Georgia", "Garamond", serif;
+    font-size: 11pt;
 }
-
-
 
 a {
-  color: rgb(164,164,0);
+    color: rgb(164,164,0);
 }
 
-div {
+.quotes {
+    color: #404040;
     background-color: rgb(255,255,168);
+    font-size: 11pt;
     font-style: italic;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 0.5cm;
+}
+
+#copyright {
+    color: #404040;
+    font: monospace;
+    text-align: right;
+    float: left;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 </style>
