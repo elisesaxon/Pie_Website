@@ -39,6 +39,10 @@ a {
     font-size: 11pt;
 }
 
+ul {
+    list-style-image: url(pie_bullet.png);
+}
+
 .bottomLine {
   border-bottom: 1px solid gray;
   padding-bottom: 5px;
