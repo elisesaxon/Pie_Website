@@ -4,7 +4,7 @@
 <style>
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
     background-color: rgb(240,240,240);
     text-align: center;
     text-decoration: underline;
-    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     font-size: 22pt;
     font-weight: bold;
 }
@@ -22,18 +22,25 @@ h2 {
     background-color: rgb(240,240,240);
     text-align: left;
     text-decoration: underline;
-    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     font-size: 18pt;
 }
 
 p {
     color: #404040;
-    font-family: "Georgia", "Garamond", serif;
+    font-family: Georgia, Garamond, serif;
     font-size: 11pt;
 }
 
 a {
     color: rgb(164,164,0);
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+.bottomLine {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
 }
 
 .quotes {
@@ -48,20 +55,20 @@ a {
 
 #copyright {
     color: #404040;
-    font: monospace;
+    font-family: monospace;
     text-align: right;
     float: left;
-    border: 0;
-    padding: 0;
-    margin: 0;
+}
+
+#copyrightText {
+    font-family: monospace;
+}
+
+#CSSbuttons {
+    clear: left;
 }
 
 </style>
 </head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
 </body>
 </html>
