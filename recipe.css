@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
 body {
-    background-color: blue;
-    background-image: url("/silverware.jpg");
+    background-image: url("silverware.jpg");
 }
 
 h1 {
@@ -72,8 +66,3 @@ ul {
 #CSSbuttons {
     clear: left;
 }
-
-</style>
-</head>
-</body>
-</html>
