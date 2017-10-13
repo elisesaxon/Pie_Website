@@ -1,23 +1,33 @@
+/*
+    Elise Saxon
+    CS342: Web Scripting
+    Due Oct 20, 2017
+
+    Pie website: A multiple-file site formatted based on Homework #1
+    specifications. Practice for basic HTML and CSS concepts.
+    This file styles pie.html based on certain specifications in
+    Homework #1.
+*/
+
 body {
     background-image: url("silverware.jpg");
 }
 
-h1 {
+h1, h2 {
     color: rgb(164,164,0);
     background-color: rgb(240,240,240);
-    text-align: center;
     text-decoration: underline;
     font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
     font-size: 22pt;
     font-weight: bold;
 }
 
 h2 {
-    color: rgb(164,164,0);
-    background-color: rgb(240,240,240);
     text-align: left;
-    text-decoration: underline;
-    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     font-size: 18pt;
 }
 
@@ -45,7 +55,6 @@ ul {
 .quotes {
     color: #404040;
     background-color: rgb(255,255,168);
-    font-size: 11pt;
     font-style: italic;
     margin-left: 1cm;
     margin-right: 1cm;
