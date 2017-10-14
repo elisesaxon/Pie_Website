@@ -1,0 +1,27 @@
+body, html {
+    background-color: #5a5587;
+    height: 100%;
+    margin: 0;
+}
+
+#blueberry {
+    background-image: url("blueberrypie.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  color: #c5c9e0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 30pt;
+  text-align: center;
+}
+
+p {
+  color: #c5c9e0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12;
+  background-color: RGBa(90, 85, 135, 0.5);
+}
