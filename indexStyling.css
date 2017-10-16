@@ -12,16 +12,65 @@ body, html {
     background-size: cover;
 }
 
-h1 {
-  color: #c5c9e0;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 30pt;
-  text-align: center;
+@media screen {
+  #content {
+    margin-left: 25%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+  }
+
+  #nav {
+    background-color: #e0d7f7;
+    width: 20%;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
+  }
+  .navButton a {
+    display: block;
+    color: #3d2970;
+    padding: 10px 20px;
+  }
+  .navButton a:hover {
+    background-color: white;
+  }
 }
 
-p {
-  color: #c5c9e0;
+h1, h2, p, li {
   font-family: Tahoma, Geneva, sans-serif;
+  margin-left: 10px;
+}
+
+h1 {
+  color: #e8af14;
+  font-size: 45pt;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 22pt;
+  margin-top: 2em;
+  padding-top: 5px;
+  border-top: 1px solid white;
+}
+
+p, li {
+  color: #c5c9e0;
   font-size: 12;
   background-color: RGBa(90, 85, 135, 0.5);
+}
+
+a {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+a:link {
+  color: #b2dee8;
+}
+a:hover {
+  color: #c59fea;
+}
+a:visited {
+  color: #ead29f;
 }
